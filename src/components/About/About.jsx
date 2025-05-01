@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.jpg';
 
 const About = () => {
@@ -41,53 +40,43 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-          I’m an aspiring full-stack developer with hands-on experience in projects using the MERN stack. I enjoy building responsive, user-friendly web apps and continuously learning new technologies.
+            I’m an aspiring full-stack developer with hands-on experience in projects using the MERN stack. I enjoy building responsive, user-friendly web apps and continuously learning new technologies.
           </p>
-          {/* Resume Button */}
-{/* Resume Buttons */}
-<div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
-  <a
-    href="https://drive.google.com/file/d/1SZ2wkmmifwem8_nS-aRsWzV-xoF1Pdxb/view?usp=sharing"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
-    style={{
-      background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-      boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
-    }}
-  >
-    DOWNLOAD CV
-  </a>
+          {/* Resume Buttons */}
+          <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
+            <a
+              href="https://drive.google.com/file/d/1SZ2wkmmifwem8_nS-aRsWzV-xoF1Pdxb/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+              style={{
+                background: 'linear-gradient(90deg, #8245ec, #a855f7)',
+                boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              }}
+            >
+              DOWNLOAD CV
+            </a>
 
-  <a
-  href="https://drive.google.com/file/d/VIDEO_CV_FILE_ID/view?usp=sharing"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block text-[#a855f7] border-2 border-[#a855f7] py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 hover:bg-[#a855f7] hover:text-white"
->
-  WATCH VIDEO CV
-</a>
-</div> 
-
-          
+            <a
+              href="https://drive.google.com/file/d/VIDEO_CV_FILE_ID/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-[#a855f7] border-2 border-[#a855f7] py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 hover:bg-[#a855f7] hover:text-white"
+            >
+              WATCH VIDEO CV
+            </a>
+          </div>
         </div>
-        {/* Right Side */}
+
+        {/* Right Side - Static Profile Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
-        <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
-          >
+          <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full overflow-hidden">
             <img
               src={profileImage}
-              alt="Astik gupta"
+              alt="Astik Gupta"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
-          </Tilt>
+          </div>
         </div>
       </div>
     </section>
