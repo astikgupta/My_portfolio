@@ -58,14 +58,14 @@ const About = () => {
               DOWNLOAD CV
             </a>
 
-            <a
+{/*             <a
               href="https://drive.google.com/file/d/VIDEO_CV_FILE_ID/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-[#a855f7] border-2 border-[#a855f7] py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 hover:bg-[#a855f7] hover:text-white"
             >
               WATCH VIDEO CV
-            </a>
+            </a> */}
           </div>
         </div>
 
