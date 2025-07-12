@@ -46,7 +46,7 @@ const About = () => {
           {/* Resume Buttons */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
             <a
-              href="https://drive.google.com/drive/home"
+              href="https://drive.google.com/file/d/1rODndM8U3YD9PznA4pvJ25gwLZOcBkxK/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
