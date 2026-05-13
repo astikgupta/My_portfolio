@@ -42,7 +42,6 @@ import sundujaLogo from './assets/company_logo/sunduja.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.webp';
-// import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
@@ -59,55 +58,53 @@ import leafDiseaseLogo from './assets/work_logo/leaf_disease.png';
 import devsyncLogo from './assets/work_logo/devsync.png';
 import financeLogo from './assets/work_logo/finance.png';
 
-
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: "Frontend",
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "React JS", logo: reactjsLogo },
+      { name: "Redux", logo: reduxLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
+      { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
   {
-    title: 'Backend',
+    title: "Backend",
     skills: [
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
+      { name: "Node JS", logo: nodejsLogo },
+      { name: "Express JS", logo: expressjsLogo },
+      { name: "MySQL", logo: mysqlLogo },
+      { name: "MongoDB", logo: mongodbLogo },
     ],
   },
   {
-    title: 'Languages',
+    title: "Languages",
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-
+      { name: "C", logo: cLogo },
+      { name: "C++", logo: cppLogo },
+      { name: "Java", logo: javaLogo },
+      { name: "Python", logo: pythonLogo },
+      { name: "JavaScript", logo: javascriptLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: "Tools",
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "Vercel", logo: vercelLogo },
+      { name: "Netlify", logo: netlifyLogo },
+      { name: "Figma", logo: figmaLogo },
     ],
   },
 ];
 
-  export const experiences = [
+export const experiences = [
     {
       id: 0,
       img: designtoneLogo,
@@ -152,10 +149,9 @@ export const SkillsInfo = [
       school: "Lovely Professional University",
       date: "Aug 2022 - July 2026",
       grade: "7.1 CGPA",
-      desc: "I am currently pursuing my B.Tech in Computer Science Engineering from Lovely Professional University, Phagwara. Throughout my time at LPU, I have built a strong foundation in programming, software development, and computer science concepts. I have studied subjects like Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participate in workshops, hackathons, and technical events, which have helped me enhance my technical skills and overall professional development. My experience at LPU is significantly contributing to my growth as a computer science professional.",
+      desc: "I am currently pursuing my B.Tech in Computer Science Engineering from Lovely Professional University, Phagwara. Throughout my time at LPU, I have built a strong foundation in programming, software development, and computer science concepts.",
       degree: "Bachelor of Technology - B-tech",
     },
-    
     {
       id: 2,
       img: vpsLogo,
@@ -165,59 +161,11 @@ export const SkillsInfo = [
       desc: "I completed my class 12 education from Shri Vinayak Academy School, Kanpur, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
       degree: "CBSE(XII) - PCM ",
     },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Shri Vinayak Academy International School, Kanpur",
-      date: "Apr 2019 - March 2020",
-      desc: "I completed my class 10 education from Shri Vinayak Academy School, Kanpur, under the CBSE board, where I studied Science.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
   ];
   
   export const projects = [
     {
       id: 0,
-      title: "Image search Engine",
-      description:
-        "A visually engaging and responsive web application built using HTML, CSS, and JavaScript. It allows users to search for high-quality images via the Unsplash API. The interface is simple yet elegant, offering keyword-based search functionality with smooth rendering of image results. Ideal for designers, developers, or anyone in need of quick and curated visual content.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/astikgupta/image-search-Website",
-      webapp: "https://astik-searchengine.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "Binkeyit",
-      description:
-        "A full-stack e-commerce web application inspired by Blinkit, designed for rapid grocery delivery. Built with modern technologies like Node.js, Express, and MongoDB, it features a clean user interface where users can browse products, add items to their cart, and place orders seamlessly. The platform includes user authentication, real-time product updates, and admin-side inventory management—offering a complete grocery shopping experience.",
-      image: csprepLogo,
-      tags: ["Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/astikgupta/Binkeyit",
-      webapp: "https://binkeyit-full-stack-ydrn.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Plant Leaf Disease Detection",
-      description:
-        "A Machine Learning framework for detecting plant leaf diseases and providing agricultural treatment recommendations. Built with Python and Streamlit, it offers real-time analysis and actionable insights for farmers to improve crop yield.",
-      image: leafDiseaseLogo,
-      tags: ["Python", "Machine Learning", "Streamlit", "Agriculture"],
-      github: "https://github.com/astikgupta/leaf-disease-framework",
-      webapp: "https://leaf-disease-by-astik.streamlit.app/",
-    },
-    {
-      id: 4,
       title: "DevSync AI",
       description:
         "AI-powered collaborative coding platform with real-time workspaces, browser-based runtime, and an integrated AI pair programmer for seamless team development.",
@@ -227,7 +175,17 @@ export const SkillsInfo = [
       webapp: "https://devsync-ai-6wki.vercel.app",
     },
     {
-      id: 5,
+      id: 1,
+      title: "Plant Leaf Disease Detection",
+      description:
+        "A Machine Learning framework for detecting plant leaf diseases and providing agricultural treatment recommendations. Built with Python and Streamlit, it offers real-time analysis and actionable insights for farmers to improve crop yield.",
+      image: leafDiseaseLogo,
+      tags: ["Python", "Machine Learning", "Streamlit", "Agriculture"],
+      github: "https://github.com/astikgupta/leaf-disease-framework",
+      webapp: "https://leaf-disease-by-astik.streamlit.app/",
+    },
+    {
+      id: 2,
       title: "FinanceDash",
       description:
         "A robust financial management system with tiered Role-Based Access Control (RBAC). Features real-time analytics dashboards, secure JWT authentication, and automated income/expense trend tracking for professional data management.",
@@ -236,7 +194,38 @@ export const SkillsInfo = [
       github: "https://github.com/astikgupta/finance-dashboard-backend",
       webapp: "https://finance-dashboard-backend-8ncb.onrender.com/",
     },
+    {
+      id: 3,
+      title: "Binkeyit",
+      description:
+        "A full-stack e-commerce web application inspired by Blinkit, designed for rapid grocery delivery. Built with modern technologies like Node.js, Express, and MongoDB, it features user authentication, real-time product updates, and admin-side inventory management.",
+      image: csprepLogo,
+      tags: ["Node.js", "MongoDB", "Express", "Full-Stack"],
+      github: "#",
+      webapp: "",
+    },
+    {
+      id: 4,
+      title: "Movie Recommendation App",
+      description:
+        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+      image: movierecLogo,
+      tags: ["React JS", "API", "MovieDB", "UI/UX"],
+      github: "#",
+      webapp: "",
+    },
+    {
+      id: 5,
+      title: "Image search Engine",
+      description:
+        "A visually engaging web application built using HTML, CSS, and JavaScript. It allows users to search for high-quality images via the Unsplash API. Ideal for designers or anyone in need of quick curated visual content.",
+      image: githubdetLogo,
+      tags: ["HTML", "CSS", "JavaScript", "API"],
+      github: "https://github.com/astikgupta/image-search-Website",
+      webapp: "https://astik-searchengine.netlify.app/",
+    },
   ];  
+
   export const certificates = [
     {
       id: 0,
@@ -244,7 +233,7 @@ export const SkillsInfo = [
       issuer: "Coursera",
       issueDate: "Nov 2023",
       certificateUrl: "https://www.coursera.org/account/accomplishments/specialization/W85RH37PZM5R",
-      image: "/certificates/dsa.png", // Place this in /public/certificates/
+      image: "/certificates/dsa.png",
     },
     {
       id: 1,
@@ -254,14 +243,6 @@ export const SkillsInfo = [
       certificateUrl: "",
       image: "/certificates/webdeveloper.png",
     },
-    // {
-    //   id: 2,
-    //   title: "SQL for Data Science",
-    //   issuer: "Great Learning",
-    //   issueDate: "December 2023",
-    //   certificateUrl: "https://www.mygreatlearning.com/certificate/OXCMUSJW",
-    //   image: "/certificates/sql.png",
-    // },
     {
       id: 3,
       title: "Full Interview Preparation",
@@ -270,6 +251,4 @@ export const SkillsInfo = [
       certificateUrl: "https://media.geeksforgeeks.org/courses/certificates/0dd551179058021691911decfc75205a.pdf",
       image: "/certificates/gfg.png",
     },
-    // Add more certificates as needed
   ];
-  
