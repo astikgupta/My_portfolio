@@ -148,7 +148,7 @@ const Navbar = () => {
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="https://wa.me/9163877701460"
+                href="https://wa.me/916387701460"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-[#25D366]"
