@@ -56,7 +56,7 @@ const About = () => {
               DOWNLOAD CV
             </a>
 
-{/*             <a
+            {/*             <a
               href="https://drive.google.com/file/d/VIDEO_CV_FILE_ID/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
@@ -71,7 +71,7 @@ const About = () => {
         <div className="md:w-1/2 flex justify-center md:justify-end relative group">
           {/* Decorative Glow */}
           <div className="absolute inset-0 bg-purple-600/20 blur-[80px] rounded-full scale-90 group-hover:scale-110 transition-transform duration-700"></div>
-          
+
           <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-[28rem] md:h-[28rem] border-4 border-purple-500/30 rounded-full overflow-hidden relative z-10 shadow-[0_0_50px_rgba(130,69,236,0.3)] group-hover:border-purple-500 transition-colors duration-500">
             <img
               src={profileImage}
