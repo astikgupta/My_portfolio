@@ -19,7 +19,7 @@ const Work = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid gap-4 md:gap-8 grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
             key={project.id}
@@ -35,7 +35,7 @@ const Work = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#110d26] via-transparent to-transparent opacity-90"></div>
             </div>
-            
+
             {/* Content Section */}
             <div className="p-5 flex-grow flex flex-col relative z-10 -mt-6">
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors duration-300">
@@ -56,9 +56,9 @@ const Work = () => {
               </div>
               <div className="mt-auto pt-3 border-t border-gray-800/50 flex items-center justify-between text-sm">
                 {project.github ? (
-                  <a 
-                    href={project.github} 
-                    target="_blank" 
+                  <a
+                    href={project.github}
+                    target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
                     className="flex items-center gap-1.5 text-gray-400 hover:text-white transition-colors"
@@ -69,11 +69,11 @@ const Work = () => {
                 ) : (
                   <div></div>
                 )}
-                
+
                 {project.webapp ? (
-                  <a 
-                    href={project.webapp} 
-                    target="_blank" 
+                  <a
+                    href={project.webapp}
+                    target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
                     className="flex items-center gap-1.5 text-purple-400 hover:text-purple-300 transition-colors"
