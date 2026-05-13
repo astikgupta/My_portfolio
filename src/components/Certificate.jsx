@@ -27,6 +27,7 @@ const Certificate = () => (
           scale={1.05}
           transitionSpeed={1000}
           gyroscope={true}
+          tiltEnable={window.innerWidth > 768}
         >
           <div className="bg-[#1c1b2a] border border-[#8245ec50] rounded-2xl shadow-lg hover:shadow-[0_0_20px_#8245ecaa] transition duration-300 overflow-hidden">
             <img

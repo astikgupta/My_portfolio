@@ -29,6 +29,7 @@ const Skills = () => (
           transitionSpeed={1000}
           gyroscope={true}
           className="h-full"
+          tiltEnable={window.innerWidth > 768}
         >
           <div className="bg-[#110d26] backdrop-blur-md px-8 py-10 rounded-2xl border border-gray-800 h-full hover:border-purple-500/50 shadow-[0_0_20px_1px_rgba(130,69,236,0.1)] transition-all duration-300">
             <h3 className="text-2xl font-bold text-white mb-8 text-center uppercase tracking-widest">
